@@ -28,3 +28,7 @@ function prependKitten(name) {
   var kittensNew = [name, ...kittens]
   return kittensNew
 }
+
+function removeLastKitten() {
+  var kittensNew = kittens.slice(0, kittens.length - 1)
+}
