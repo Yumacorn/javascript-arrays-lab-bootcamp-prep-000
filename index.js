@@ -19,10 +19,7 @@ function destructivelyRemoveFirstKitten() {
 appendKitten("Rawr")
 
 function appendKitten(name) {
-  console.log(name)
-  console.log(kittens)
   var kittensNew = kittens
-  console.log(kittensNew)
   kittensNew.push(name)
   console.log(kittensNew)
   console.log(kittens)
