@@ -20,10 +20,6 @@ appendKitten("Rawr")
 
 function appendKitten(name) {
   var kittensNew = kittens
-  console.log(kittens)
-
   kittensNew = [...kittens, name]
-  console.log(kittensNew)
-  console.log(kittens)
   return kittensNew
 }
