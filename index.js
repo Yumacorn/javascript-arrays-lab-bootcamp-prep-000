@@ -22,7 +22,7 @@ function appendKitten(name) {
   var kittensNew = kittens
   console.log(kittens)
 
-  kittensNew.push(name)
+  kittensNew = [...kittens, name]
   console.log(kittensNew)
   console.log(kittens)
   return kittensNew
