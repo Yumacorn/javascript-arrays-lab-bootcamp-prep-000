@@ -24,5 +24,7 @@ function appendKitten(name) {
   var kittensNew = kittens
   console.log(kittensNew)
   kittensNew.push(name)
+  console.log(kittensNew)
+
   return kittensNew
 }
